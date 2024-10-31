@@ -10,5 +10,5 @@ func main() {
 	fmt.Scan(&b)
 
 	avg := (a + b) / 2
-	fmt.Printf("Avarage value: %v\n", avg)
+	fmt.Printf("Avarage value: %.2f\n", avg)
 }

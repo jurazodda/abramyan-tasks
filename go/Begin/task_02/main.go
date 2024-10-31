@@ -8,5 +8,5 @@ func main() {
 	fmt.Scan(&a)
 	
 	s := a * a
-	fmt.Printf("Area of the square: %v\n", s)
+	fmt.Printf("Area of the square: %.2f\n", s)
 }

@@ -8,8 +8,8 @@ func main() {
 	fmt.Scan(&a)
 
 	v := a * a * a
-	fmt.Printf("Volume of the cube: %v\n", v)
+	fmt.Printf("Volume of the cube: %.2f\n", v)
 
 	s := 6 * a * a
-	fmt.Printf("Surface area of the cube: %v\n", s)
+	fmt.Printf("Surface area of the cube: %.2f\n", s)
 }

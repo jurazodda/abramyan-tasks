@@ -8,8 +8,8 @@ func main() {
 	fmt.Scan(&a, &b, &c)
 
 	v := a * b * c
-	fmt.Printf("Volume of the rectangular parallelepiped: %v\n", v)
+	fmt.Printf("Volume of the rectangular parallelepiped: %.2f\n", v)
 
 	s := 2 * (a*b + b*c + a*c)
-	fmt.Printf("Surface area of the rectangular parallelepiped: %v\n", s)
+	fmt.Printf("Surface area of the rectangular parallelepiped: %.2f\n", s)
 }

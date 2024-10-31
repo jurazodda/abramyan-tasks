@@ -10,8 +10,8 @@ func main() {
 	fmt.Scan(&b)
 
 	s := a * b
-	fmt.Printf("Area of the rectangle: %v\n", s)
+	fmt.Printf("Area of the rectangle: %.2f\n", s)
 
 	p := 2 * (a + b)
-	fmt.Printf("Perimeter of the rectangle: %v\n", p)
+	fmt.Printf("Perimeter of the rectangle: %.2f\n", p)
 }

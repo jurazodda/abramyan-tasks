@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
@@ -11,15 +12,18 @@ func main() {
 	fmt.Print("Enter the second number: ")
 	fmt.Scan(&num2)
 
-	sum := num1 + num2
+	absNum1 := math.Abs(num1)
+	absNum2 := math.Abs(num2)
+
+	sum := absNum1 + absNum2
 	fmt.Printf("Sum: %.2f\n", sum)
 
-	difference := num1 - num2
+	difference := absNum1 - absNum2
 	fmt.Printf("Difference: %.2f\n", difference)
 
-	product := num1 * num2
+	product := absNum1 * absNum2
 	fmt.Printf("Product: %.2f\n", product)
 
-	quotientOfSquares := (num1 * num1) / (num2 * num2)
-	fmt.Printf("Quotient of squares: %.2f\n", quotientOfSquares)
+	division := absNum1 / absNum2
+	fmt.Printf("Division: %.2f\n", division)
 }

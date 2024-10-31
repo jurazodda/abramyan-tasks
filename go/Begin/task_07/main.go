@@ -9,7 +9,7 @@ func main() {
 	const p float64 = 3.14
 
 	l := 2 * p * r
-	fmt.Printf("Circumference of the circle: %v\n", l)
+	fmt.Printf("Circumference of the circle: %.2f\n", l)
 
 	s := p * r*r 
 	fmt.Printf("Area of the circle: %.2f\n", s)

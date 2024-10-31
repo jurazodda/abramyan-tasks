@@ -8,5 +8,5 @@ func main() {
 	fmt.Scan(&a)
 	
 	p := 4 * a
-	fmt.Printf("Perimeter of the square: %v\n", p)
+	fmt.Printf("Perimeter of the square: %.2f\n", p)
 }
