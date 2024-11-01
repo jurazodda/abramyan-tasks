@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var a float64
+
 	fmt.Print("Enter the side of the square: ")
 	fmt.Scan(&a)
 	

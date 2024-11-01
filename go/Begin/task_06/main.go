@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var a, b, c float64
+
 	fmt.Print("Enter the edge lengths of the rectangular parallelepiped: ")
 	fmt.Scan(&a, &b, &c)
 

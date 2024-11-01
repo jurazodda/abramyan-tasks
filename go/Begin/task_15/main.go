@@ -7,9 +7,10 @@ import (
 
 func main() {
 	var s float64
+	const p float64 = 3.14
+	
 	fmt.Print("Enter the area of the circle: ")
 	fmt.Scan(&s)
-	const p float64 = 3.14
 
 	r := math.Sqrt(s / p)
 	d := 2 * r
