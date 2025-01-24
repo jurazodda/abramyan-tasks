@@ -1,19 +1,15 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	var r float64
-	const p float64 = 3.14
+	const p = 3.14
+	var R float64
+	fmt.Scan(&R)
 
-	fmt.Print("Enter the radius of the circle: ")
-	fmt.Scan(&r)
+	L := 2 * p * R
+	S := p * R * R
 
-	l := 2 * p * r
-	fmt.Printf("Circumference of the circle: %.2f\n", l)
-
-	s := p * r*r 
-	fmt.Printf("Area of the circle: %.2f\n", s)
+	fmt.Println(L)
+	fmt.Println(S)
 }

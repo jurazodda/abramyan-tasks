@@ -6,16 +6,14 @@ import (
 )
 
 func main() {
-	var s float64
-	const p float64 = 3.14
+	const p = 3.14
+	var S float64
+	fmt.Scan(&S)
+
+	R := math.Sqrt(S / p)
+	D := 2 * R
+	L := 2 * p * R
 	
-	fmt.Print("Enter the area of the circle: ")
-	fmt.Scan(&s)
-
-	r := math.Sqrt(s / p)
-	d := 2 * r
-	fmt.Printf("Diameter of the circle: %.2f\n", d)
-
-	l := 2 * p * r
-	fmt.Printf("The length of the circle: %.2f\n", l)
+	fmt.Println(D)
+	fmt.Println(L)
 }

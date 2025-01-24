@@ -1,18 +1,14 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	var a float64
-
-	fmt.Print("Enter the edge of the cube: ")
 	fmt.Scan(&a)
 
-	v := a * a * a
-	fmt.Printf("Volume of the cube: %.2f\n", v)
+	V := a * a * a
+	S := 6 * a * a
 
-	s := 6 * a * a
-	fmt.Printf("Surface area of the cube: %.2f\n", s)
+	fmt.Println(V)
+	fmt.Println(S)
 }

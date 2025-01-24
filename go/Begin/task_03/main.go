@@ -1,20 +1,14 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	var a, b float64
+	fmt.Scan(&a, &b)
 
-	fmt.Print("Enter the length of the rectangle: ")
-	fmt.Scan(&a)
-	fmt.Print("Enter the width of the ractangle: ")
-	fmt.Scan(&b)
+	S := a * b
+	P := 2 * (a + b)
 
-	s := a * b
-	fmt.Printf("Area of the rectangle: %.2f\n", s)
-
-	p := 2 * (a + b)
-	fmt.Printf("Perimeter of the rectangle: %.2f\n", p)
+	fmt.Println(S)
+	fmt.Println(P)
 }
